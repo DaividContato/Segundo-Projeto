@@ -1,0 +1,41 @@
+h1{
+ color:red;
+ font-size:64px;
+ font-weight: lighter;
+ font-style: italic;
+ text-shadow: 15px 10px 20px #ff0000; /*sompra do texto(horizontal, vertical, espaçado e a cor)
+
+}
+
+
+p{
+    color:blue; /*troca a cor do texto */
+    font-size:30px; /* troca o tamanho do texto*/
+    font-weight:50;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 40px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-align:justify;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+/* UNIDADES DE MEDIDAS
+
+    ABSOLUTAS
+
+    px(pixels)
+    in(inches/polegadas)
+    cm/mm(centimetro,milimetro)
+
+    RELATIVAS
+
+    %(Calcula o tamanho relativo ao elemento pai)
+    vw(view width) 1vw é 1% da largura da janela do navegador
+    vh(view height) 1vh é 1% da altura da janela do navegador
+    em é uma unidade relativa ao elemento pai
+    rem é uma unidade relativa ao elemento raiz
+
+
+*/
